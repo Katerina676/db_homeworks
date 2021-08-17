@@ -19,3 +19,4 @@ create table if not exists Track(
 	Length numeric(8,0) not null,
 	Album_id integer references Album(Id)
 );
+
